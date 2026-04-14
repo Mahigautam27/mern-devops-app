@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/Mahigautam27/mern-devops-app.git'
+                git branch: 'main', url: 'https://github.com/Mahigautam27/mern-devops-app.git'
             }
         }
 
